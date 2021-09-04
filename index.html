@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>floweranimation</title>
+        </head>
+            <style>
+                   #p{
+                       width:600px;
+                       height:600px;
+                       background:#fff;
+                       overflow:hidden;
+                       margin:auto;
+                       position:relative;
+                   }
+                   .common{
+                       width:300px;
+                       height:300px;
+                       position:absolute;
+                   }
+                   .green{
+                       background:green;
+                       border-top-right-radius:300px;
+                       border-bottom-left-radius:300px;
+                   }
+                   .blue{
+                       background:blue;
+                       border-top-left-radius:300px;
+                       border-bottom-right-radius: 300px;
+                       bottom:0px;
+                       left:0px;
+                   }
+                   .yellow{
+                       background:yellow;
+                       top:0px;
+                       right:0px;
+                       border-top-left-radius:300px;
+                       border-bottom-right-radius:300px;
+                   }
+                   .pink{
+                       background:pink;
+                       bottom:0px;
+                       right:0px;
+                       border-bottom-left-radius:300px;
+                       border-top-right-radius:300px;
+                   }
+            </style>
+        <body>
+            <div id="p"> 
+                 <div class= "common c1 green" ></div>
+                 <div class="common c2 blue"></div>
+                 <div class="common c3 yellow"></div>
+                 <div class="common c4 pink"></div>
+            </div>
+        </body>
+</html>
